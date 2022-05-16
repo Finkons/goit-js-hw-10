@@ -1,5 +1,4 @@
 
-
 * {
   box-sizing: border-box;
   
@@ -10,15 +9,15 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-image: url("../css/2930150.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #212121;
   line-height: 1.5;
-  margin-left: 50px;
-  margin-top: 50px;
+  margin-left: 10%;
+  margin-top: 10%;
   
 }
-
-
 
 #search-box {
   font: inherit;
@@ -32,16 +31,23 @@ body {
 
 
 li {
+  background-color: rgb(245, 226, 202);
+  width: 60%;
+  opacity: 0.9;
   list-style: none;
   font-size: 30px;
   font-weight: 400;
   align-items: center;
   margin-bottom: 5px;
+  border-radius: 10px;
 }
 ul {
   padding-left: 0px;
 }
 p {
+  background-color: rgb(238, 219, 194);
+  width: 60%;
+  opacity: 0.9;
   font-size: 30px; 
   font-weight: 400;
   margin: 0;
@@ -56,8 +62,8 @@ img {
 }
 
 input {
-  width: 400px;
+  min-width: 300px;
   border-radius: 10px;
   height: 40px;
-  background-image:linear-gradient(to bottom right, rgb(174, 195, 250), rgb(250, 250, 179))
+  background-color: rgb(252, 231, 208);
 }
